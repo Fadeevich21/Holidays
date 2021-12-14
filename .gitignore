@@ -1,10 +1,10 @@
 /.vs/*
-Natalya.sln
+Holidays.sln
 
 /Holidays/Debug/*
 /Holidays/Release/*
-/Holidays/Natalya.vcxproj
-/Holidays/Natalya.vcxproj.*
+/Holidays/Holidays.vcxproj
+/Holidays/Holidays.vcxproj.*
 
 #Visual Studio files
 *.[Oo]bj
