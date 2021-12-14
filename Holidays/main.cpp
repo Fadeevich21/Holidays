@@ -59,7 +59,7 @@ bool CheckCorrectReadData(const t_data &data)
 						31, 31, 30,
 						31, 30, 31};
 
-	return data.month >= 1 && data.month <= 12 && data.day >= 0 && data.day <= day[data.month - 1];
+	return (data.month >= 1) && (data.month <= 12) && (data.day >= 0) && (data.day <= day[data.month - 1]);
 }
 
 // Вывод праздников из файла с именем fName в дни, которые вводит пользователь
